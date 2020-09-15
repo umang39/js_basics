@@ -1,0 +1,35 @@
+#textBox{
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: black 3px 3px 10px;
+    margin: 20px;
+    /* transform: scaleX(-2); */
+}
+#textBox:active{
+    box-shadow: black 6px 6px 20px;
+}
+#textBox:hover{
+    box-shadow: black 6px 6px 20px;
+}
+/* #list:nth-child(odd){
+    background-color: blueviolet;
+}
+#list:nth-child(even){
+    background-color: red;
+} */
+li:nth-child(odd) {
+    background:red;
+
+  }
+  
+li:nth-child(even) {
+        background: blue;
+  }
+  li{
+      font-weight: bolder;
+      color:wheat;
+      list-style-type: none;
+      margin: 20px;
+      padding : 10px;
+      border-radius: 10px;
+  }
